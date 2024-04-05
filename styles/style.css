@@ -27,6 +27,11 @@
     height: 50%;
     background-color: transparent;
 }
+#box_center>#key_code {
+    font-family: var(--fontFamily);
+    font-size: 350px;
+    color: #111430;
+}
 #box_text {
     width: 45%;
     height: 120px;
@@ -70,7 +75,7 @@
     background-color: #fff;
     border-radius: 0 0 12px 12px;
 }
-#box_event_obj>div>div>#text_value {
+#box_event_obj>div>div>span {
     font-family: var(--fontFamily);
     font-size: 38px;
     color: #111430;
