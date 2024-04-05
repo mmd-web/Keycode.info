@@ -1,0 +1,90 @@
+/* todo Navbar styles */
+#navbar {
+    width: 100%;
+    height: 25%;
+    background-color: transparent;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+#navbar>button {
+    position: relative;
+    top: 60px;
+    right: 60px;
+    padding: 8px 20px;
+    font-family: var(--fontFamily);
+    font-size: 22px;
+    color: #000;
+    background-color: transparent;
+    border: 4px solid #c73bff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* todo keycode and enter text styles */
+#box_center {
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+}
+#box_text {
+    width: 45%;
+    height: 120px;
+    background-color: #c73bff;
+    border-radius: 12px;
+    box-shadow: 0 0 4px #ffffff , 0 0 15px #c73bffda , 0 0 20px #c73bff9f , 0 0 25px #c73bff5c;
+    border: 0.5px solid #fff;
+}
+#box_text>span {
+    font-family: var(--fontFamily);
+    font-size: 34px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* todo Box event styles of object type */
+#box_event_obj {
+    width: 100%;
+    height: 25%;
+    background-color: transparent;
+    gap: 80px;
+}
+#box_event_obj>div {
+    position: relative;
+    width: 350px;
+    height: 140px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+#box_event_obj>div>div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box_event_obj>div>#name_event {
+    width: 100%;
+    height: 35px;
+    background-color: #c73bff;
+    border-radius: 12px 12px 0 0 ;
+}
+#box_event_obj>div>#name_event>span {
+    font-family: var(--fontFamily);
+    font-size: 18px;
+    color: #fff;
+}
+#box_event_obj>div>#content_event {
+    width: 100%;
+    height: 115px;
+    background-color: #fff;
+    border-radius: 0 0 12px 12px;
+}
+#box_event_obj>div>#content_event>span {
+    font-family: var(--fontFamily);
+    font-size: 38px;
+    color: #111430;
+}
