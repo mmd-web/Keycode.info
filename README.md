@@ -1,4 +1,4 @@
-<h2>about</h2>
+<h2>About</h2>
 
 - <h4>Press any key to get the JavaScript event keycode info</h4>
 
